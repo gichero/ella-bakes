@@ -4,7 +4,7 @@ export class Custom extends Component {
     render() {
         return (
             <div>
-                Custom Page
+                <h1>Custom Page</h1>
             </div>
         )
     }
