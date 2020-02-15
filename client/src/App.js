@@ -13,12 +13,14 @@ function App() {
   return (
     <div>
       <Navbar/>
-    <Switch>
+      <div className="container">
+      <Switch>
       {<Route path="/menu" component={Menu}/>}
       {<Route path="/custom" component={Custom}/>}
       {<Route path="/order" component={Order}/>}
       {<Route path="/" exact component={About}/>}
     </Switch>
+      </div>
     </div>
   );
 }
