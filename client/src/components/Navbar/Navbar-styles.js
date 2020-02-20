@@ -10,5 +10,9 @@ export const MyButton = styled(Button)({
     fontSize: 20,
     fontWeight: 400,
     color: 'inherit',
-    textDecoration: 'none'
+    textDecoration: 'none',
+    '&:hover': {
+        backgroundColor: 'gray',
+        borderRadius: 5
+      }
   });
