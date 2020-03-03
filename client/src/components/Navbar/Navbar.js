@@ -1,20 +1,19 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import AppBar from '@material-ui/core/AppBar';
-import {MyToolbar, MyButton} from './Navbar-styles.js';
+import './Navbar.css';
 
 class Navbar extends Component {
-    render(){
+    render(){ 
         return (
            
-            <AppBar position="sticky">
-                <MyToolbar className="nav-container">
-                    <MyButton component={Link} to="/">ABOUT</MyButton>
-                    <MyButton component={Link} to="/menu">MENU</MyButton>
-                    <MyButton component={Link} to="/custom">CUSTOM</MyButton>
-                    <MyButton component={Link} to="/order">ORDER</MyButton>
-                </MyToolbar>
-            </AppBar>    
+            <nav className="nav">
+                <ul className="nav__list">
+                    <Link className="nav__link" to="/" ><li>ABOUT</li></Link>
+                    <Link className="nav__link" to="/menu" ><li>MENU</li></Link>
+                    <Link className="nav__link" to="/custom" ><li>CUSTOM</li></Link>
+                    <Link className="nav__link" to="/order" ><li>ORDER</li></Link>
+                </ul>
+            </nav>    
            
         )
     }  

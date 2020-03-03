@@ -1,0 +1,11 @@
+.menu{
+    background-image: url(../../assets/menu.jpg);
+    background-size: cover;
+    /* color: var(--clr-light); */
+    text-align: center;
+    padding: 3em;
+}
+.menu__title{
+    color: var(--clr-light);
+    position: relative;
+}
