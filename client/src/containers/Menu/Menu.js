@@ -10,14 +10,14 @@ export class Menu extends Component {
                     <h2 className="menu__title">Menu</h2>
                 </div>
                 <div>
-                    <Link to="/menu/cakes" class="menu__item">
-                        <img src="../../assets/cake.svg" alt="" class="menu__img"/>
+                    <Link to="/menu/cakes" className="menu__item">
+                        <img src="/assets/cake.png" alt="" className="menu__img"/>
                     </Link>
-                    <Link to="/menu/cupcakes" class="menu__item">
-                        <img src="../../assets/cup-cake.svg" alt="" class="menu__img"/>
+                    <Link to="/menu/cupcakes" className="menu__item">
+                        <img src="/assets/cupcake.png" alt="" className="menu__img"/>
                     </Link>
-                    <Link to="/menu.cookies" class="menu__item">
-                        <img src="../../assets/muffin.svg" alt="" class="menu__img"/>
+                    <Link to="/menu.cookies" className="menu__item">
+                        <img src="/assets/cookie.png" alt="" className="menu__img"/>
                     </Link>
                 </div>
             </div>
