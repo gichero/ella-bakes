@@ -8,3 +8,17 @@
     color: var(--clr-light);
     position: relative;
 }
+.menu__items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 3em;
+}
+.menu__link{
+    font-size: 5em;
+    color: var(--clr-dark);
+    cursor: pointer;
+}
+.menu__link:hover{
+    color: var(--clr-accent);
+}

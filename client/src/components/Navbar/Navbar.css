@@ -11,6 +11,7 @@
     font-size: var(--fs-h3);
     text-decoration: none;
     margin-left: 2em;
+    cursor: pointer;
 }
 
 .nav__link:hover{

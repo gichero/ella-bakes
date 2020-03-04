@@ -8,10 +8,10 @@ class Navbar extends Component {
            
             <nav className="nav">
                 <ul className="nav__list">
-                    <Link className="nav__link" to="/" ><li>ABOUT</li></Link>
-                    <Link className="nav__link" to="/menu" ><li>MENU</li></Link>
-                    <Link className="nav__link" to="/custom" ><li>CUSTOM</li></Link>
-                    <Link className="nav__link" to="/order" ><li>ORDER</li></Link>
+                    <li><Link className="nav__link" to="/" >ABOUT</Link></li>
+                    <li><Link className="nav__link" to="/menu" >MENU</Link></li>
+                    <li><Link className="nav__link" to="/custom" >CUSTOM</Link></li>
+                    <li><Link className="nav__link" to="/order" >ORDER</Link></li>
                 </ul>
             </nav>    
            
