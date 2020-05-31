@@ -7,6 +7,7 @@ import About from './containers/About/About';
 import Menu from './containers/Menu/Menu';
 import Custom from './containers/CustomPage/Custom';
 import Order from './containers/Order/Order';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
   render(){
@@ -21,6 +22,7 @@ class App extends Component {
           {<Route path="/" exact component={About}/>}
         </Switch>
         </div>
+        <Footer/>
       </div>
     );
   } 
